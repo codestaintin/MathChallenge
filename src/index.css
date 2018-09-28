@@ -1,0 +1,38 @@
+.number {
+	background: rgb(243, 243, 243);
+  border-style: solid;
+  border-color: black;
+}
+
+.answer {
+	background: white;
+  border-style: solid;
+  border-color: black;
+}
+
+.fa-star {
+  margin: 0.5em;
+  font-size: 24px;
+}
+
+span {
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  background-color: #ccc;
+  width: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #eee;
+  color: #ddd;
+	cursor: not-allowed;
+}
+
+.used {
+  background-color: #aaddaa;
+  color: #FF0000;
+	cursor: not-allowed;
+}
